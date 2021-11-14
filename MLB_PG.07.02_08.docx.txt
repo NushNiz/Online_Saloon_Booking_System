@@ -1,0 +1,96 @@
+
+ 
+	Project Group ID : MLB_PG.07.02_08
+
+ 
+	Batch No : Year 1 Semester 2
+
+ 
+	Topic : Online Salon Booking System
+
+ 
+	Project link : https://mysliit-my.sharepoint.com/:u:/g/personal/it20207618_my_sliit_lk/EfJSGaDJk8VGlQqcwtQJUyIBU9Tw4IZLJkejbIjXjcbxMg?e=DokBRX
+
+
+ 
+	Group member details
+	
+
+
+
+		
+
+	
+-----------------------------------------------------------------------------------	
+IT20207618
+	
+M. Nuskhan Nisme
+
+071 668 1000	
+
+It20207618@my.sliit.lk	
+
+1.admin-user-login.html 
+2.homepage.html 
+3.services.html 
+4.special-pack.html
+----------------------------------------------------------------------------------
+IT20252472
+	
+O.V.D. Erandika Roshani	
+
+076 391 6858
+	
+IT20252472@my.sliit.lk
+	
+1.Appointment.html
+2.Location.html
+----------------------------------------------------------------------------------
+IT20203726	
+
+Maldeniya M.M.D
+
+071 983 8849	
+
+IT20203726@my.sliit.lk	
+
+1.about.html
+2.forgot.html
+3.registation.html
+4.login.html
+5.reset.html
+6.terms.html
+---------------------------------------------------------------------------------
+IT20231200
+
+Zoysa E.S.
+
+071 6018568
+
+IT20231200@my.sliit.lk
+
+1.feedbackpage.html
+2.payment page.html
+3.myprofilepage.html
+4.phistory.html
+5.privacy.html
+-------------------------------------------------------------------------------
+IT20240288
+
+Rodrigo P.H.M.S.
+
+076 409 3434	
+
+IT20240288@my.sliit.lk
+
+1.product.html
+2.contactus.html
+3.ADMINLOGIN.html
+
+	
+	
+	
+	
+	
+	
+

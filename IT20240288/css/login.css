@@ -1,0 +1,45 @@
+.cc{
+	width: 400px;
+	height: 450px;
+	text-align: center;
+	margin: 0 auto;
+	background-color: rgb(75,70,73, 0.6);
+	margin-top:100px;
+	border-radius: 50px;
+}
+.logg{
+	border-radius: 59px;
+	height: 130px;
+	width: auto;
+	margin-top: -67px;
+}
+input[type="text"], input[type="password"]{
+	margin-top: 50px;
+	height: 35px;
+	width: 300px;
+	font-size: 18px;
+	border-radius: 6px;
+	background-color: white;
+	text-align: center;
+	border: none;
+}
+.btnn1{
+	background-color: #2ecc71;
+	width:150px;
+	height:40px;
+	border:none;
+	color:white;
+	border-radius:10px;
+}
+.btnn1:hover{
+	color: green;
+	background-color: white;
+	cursor: pointer;
+}
+.error{
+	background: #F2DEDE;
+	color: #A94442;
+	width:400px;
+	border-radius:5px;
+	height:20px;
+}

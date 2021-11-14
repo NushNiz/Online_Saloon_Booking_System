@@ -1,0 +1,95 @@
+.bg{
+	
+	font-family:"montserrat",sans-serif;
+}
+.con
+{  
+	/*background-image:url("../images/wer.jpg");
+	background-repeat:no-repeat;
+     background-size: 1550px 1000px;
+	 */
+	  background-image: url("../images/wer.jpg");
+	-webkit-background-size:cover;
+	background-size: cover;
+	background-position: center center;
+    align-items: center;
+}
+.loginbox{
+
+width:520px;
+height:400px;
+background:rgba(48, 45, 45, 0.3);
+top:50%;
+left:50%;
+position:center;
+transform:translate(-50%,-50%);
+box-sizing:border-box;
+padding: 30px 40px;
+font-family: Arial, Helvetica, sans-serif;
+color: black;
+ margin-right:500px;
+  margin-left:760px;
+  margin-bottom:50px;
+  margin-top:250px;
+}
+
+h1{
+	margin: 0;
+	padding: 0 0 20px;
+	text-align: center;
+	font-size:32px;
+	font-family: sans-serif;
+	
+}
+.loginbox p{
+	margin:0;
+	padding:0;
+	font-weight:bold;
+}
+.loginbox input{
+   width:100%;
+   margin-bottom:40px;
+}
+.loginbox input[type="text"],input[type="password"]
+{
+	border:none;
+	border-bottom:1px solid #fff;
+	background:transparent;
+	outline:none;
+	height:40px;
+	color:#000;
+	font-size:16px;
+}
+.loginbox input[type="submit"]
+{
+	border:none;
+	outline:none;
+	height:30px;
+	
+	
+	background:grey;
+	color:black;
+	font-size:18px;
+	border-radius:20px;
+}
+
+.loginbox input[type="submit"]:hover
+{
+	cursor:pointer;
+	background:light green;
+	color:#000;
+}
+.click:active {
+  background-color: grey;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.loginbox a{
+	text-decoration:blink;
+	font-size:18px;
+	line-height:20px;
+	color:black;
+}
+.loginbox a:hover{
+	color:skyblue;
+}

@@ -1,0 +1,99 @@
+.se1{
+	border-radius: 10%;
+	width: 200px;
+	height: 150px;
+
+
+} 					
+.ta{
+	padding: 30px;
+	text-align: center;
+	font-size: 27px;
+	margin-right: 60px;
+
+}
+a{
+	text-decoration: none;
+	color: black;
+
+}
+.ff{
+	height: 400px;
+  	width: 930px;
+  	border-radius: 30px;
+}
+a:hover{
+	color: white;
+}
+p a:hover{
+	color: #DAA520;
+	
+}
+.fontsize{
+	font-size: 18px;
+}
+.bapp{
+  display: inline-block;
+  border-radius: 4px;
+  background-color:#DAA520;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 250px;
+  cursor: pointer;
+  margin: 40px 150px;
+  margin-right: 80px;
+  text-decoration: none;
+  outline: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+  opacity: 0.8;
+
+}
+.bapp span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition:0.3s;
+}
+.bapp span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition:0.5s;
+}
+.bapp:hover span {
+  padding-right: 25px;
+ }
+
+.bapp:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+.bapp:active {
+  background-color: orange;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.b1t1{
+	width: 150px;
+	height: 40px;
+	cursor: pointer;
+	outline: none;
+	border: none;
+	background-color: #DAA520;
+	border-radius: 6px;
+	font-size: 17px;
+
+}
+.b1t1:hover{
+	text-transform: uppercase;
+	color: white;
+}
+.hh1{
+	border:2px solid gray;
+}

@@ -1,0 +1,287 @@
+.left{
+    list-style-type: none;
+            padding:0;
+            margin:0;
+            position: absolute;
+            top:40px;
+            left:10px;
+            right: 30px;
+            width:200px;
+}
+.box3{
+
+  color: black;
+  margin:  8px 13px;
+  text-align: center;
+  width: 245px;
+  height: 40px;
+  border:none;
+  box-sizing: border-box;
+}
+
+.fset{
+
+  width: 257px;
+  margin: 8px 16px;
+  background: white;
+  border:none;
+
+
+}
+.align{
+  padding: 15px;
+  font-weight: bold;
+  background-color:#DAA520;
+
+}
+.align1{
+  padding: 5px;
+  font-weight: bold;
+  background-color: #DAA520;
+}
+
+.calender{
+  position: relative;
+  margin: 8px 25px;
+  width: 200px;
+  background:black;
+  border: 5px;
+  border-color: red;
+  text-align: center;
+  border-radius: 20px;
+  overflow:hidden;
+  background-image: url("../images/caland.jpg");
+  background-size: cover;
+  background-position: center;
+  
+}
+.calender #monthName{
+margin-top: 0px;
+position: relative;
+padding: 5px 10px;
+background:orange;
+border-radius: 4px;
+color: white;
+font-size: 20px;
+font-weight: 500;
+}
+.calender #dayName{
+  margin-top: 0px;
+  font-size: 30px;
+  font-weight: 260;
+  color:  #696969;
+  font-family: monospace;
+}
+.calender #dayNumber{
+  margin-top: 0;
+  font-size:50px;
+  font-weight: 400;
+  color:  black;
+  font-family: monospace;
+}
+.calender #year{
+  margin-bottom: 20px;
+  font-family: monospace;
+  padding: 0;
+  font-size: 30px;
+  font-weight: 400;;
+  color:  #696969;
+
+}
+
+.time1{
+  font-size: 20px;
+  margin:3px 70px; 
+  width: 150px;
+  border:none;
+  color:black;
+}
+ .box2{
+  color: red;
+  font-family: unset;
+  text-align: center;
+  width: 100%;
+  height: 490px;
+  border: none;
+  box-sizing: border-box;
+  text-shadow: 1px 1px 3px yellow; 
+  font-size: 20px;
+  
+}
+.box{
+  color: black;
+  text-align: center;
+  width: 250px;
+  height: 80px;
+  border: none;
+  box-sizing: border-box;
+  background:#DAA520;
+  border-radius:8px;
+  font-weight: 200;
+
+
+}
+.fset2{
+  height: 850px;
+  margin-left: 320px;
+  border: none;
+  
+}
+.title{
+  color:  white;
+  font-family:Candara;
+  font-size: 70px;
+  text-align:center;
+  text-shadow: 2px 2px 5px orange;
+}
+.logo01{
+  display:block; margin-left:auto; margin-right:auto;
+  width: 250px;
+  height: 175px;
+  padding-right: 250px;
+}
+.para{
+  font-family: monospace;
+  font-size: 25px;
+  text-align: center;
+  color: black;
+  
+}
+
+.button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color:#DAA520;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 250px;
+  cursor: pointer;
+  margin: 50px 150px;
+  margin-right: 50px;
+  text-decoration: none;
+  outline: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+  opacity: 0.8;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition:0.3s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition:0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+ }
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+.button:active {
+  background-color: orange;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+ .button1 {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #DAA520;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 250px;
+  cursor: pointer;
+  margin: 20px 120px;
+  margin-right: 10px;
+  text-decoration: none;
+  outline: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+  opacity: 0.8;
+}
+
+.button1 span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition:0.3s;
+}
+
+.button1 span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition:0.5s;
+}
+
+.button1:hover span {
+  padding-right: 25px;
+ }
+
+.button1:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+.button1:active {
+  background-color:orange;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.button2{
+  background-color:#DAA520;
+  border:none;
+  border-radius: 25px;
+  color: white;
+  width: 250px;
+  padding:20px 20px;
+  text-align:center;
+  font-size:16px;
+  margin:5px 615px;
+  margin-right: 20px;
+  opacity: 0.6;
+  transition:0.3s;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+
+}
+.button2:hover{
+  opacity: 1;
+}
+.para1{
+  font-family: Candara;
+  font-size: 30px;
+  font-weight: 150;
+  text-align: center;
+  color: black;
+  
+
+}
+.imgwh{
+  height: 800px;
+  width: 100%;
+}
+.sbtn{
+    text-decoration: none;
+    color: white;
+}

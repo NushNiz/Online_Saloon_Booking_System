@@ -1,0 +1,130 @@
+.font1{
+    font-family: Cambria;
+    font-size:22px;
+}
+
+.font2{
+    font-family: arial;
+    font-size:15px;
+}
+
+#name{
+	height:30px;
+}
+#email{
+	height:30px;
+}
+
+#btn1{
+	background-color: #CA9C01;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+#btn2{
+	background-color: #CA9C01;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+body{
+  margin: 0px;
+  padding: 0px;
+
+}
+h1{
+	color:#CA9C01;
+	font-size:40px;
+}
+
+
+.box{
+	height:133vh;
+	background-image: url(../images/yellow5.jpg);
+	
+	
+}
+
+.innerbox{
+	height:130vh;
+	max-width:850px;
+	position:relative;
+	display:block;
+	top:50%;
+	left:50%;
+	transform:translate(-50%, -50%);
+	background:rgba(255,255,255,.8);
+	box-shadow: 0 15px 20px rgba(0,0,0,.2);
+	padding :13px;
+}
+
+.line{
+	text-decoration: underline;
+}
+
+.emoji{
+  list-style: none;
+  position: fixed;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  margin: 0px;
+  padding:0px;
+  z-index: 99;
+}
+.name{
+  list-style: none;
+  position: fixed;
+  top: 44%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  margin: 0px;
+  padding:0px;
+  z-index: 99;
+}
+.emoji li{
+  display:inline;
+  margin-left: 9px;
+  margin-right: 7px;
+}
+.name li{
+  width: 1px;
+  font-family: arial;
+  font-size: 11px;
+  color: blue;
+  display: inline;
+  margin-left: 25px;
+  margin-right:25px;
+  transition: all .2s;
+}
+.dot{
+  height: 3px;
+  width: 3px;
+  background-color: red;
+  transition: all .3s;
+}
+.hover:hover{
+  color: red;
+  cursor:pointer;
+}
+
+/*.box{
+	.box1{
+	width: 30%;
+	height: 3em;
+	float: left;
+    display: inline;
+	padding: 3em;
+	border-color:solid black;
+	background:none; 	
+}*/

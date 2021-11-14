@@ -1,0 +1,199 @@
+	<!DOCTYPE html>
+	<html>
+	<head>
+		<title>Salon Riverdale</title>
+		<link rel="stylesheet" type="text/css" href="../css/header.css">
+		<link rel="stylesheet" type="text/css" href="../css/homepage.css">
+		<script src="../js/homepage.js"></script>
+		<link rel="stylesheet" href="../css/footercss.css">
+		
+	</head>
+	<body class="bg">
+			<div class="box-area">
+				<header><!----------------- HEADER ----------------------->
+					<div class="wrapper">
+						<div class="logo">
+							<a href="homepage.html"><img class="image2" src="..\Images\salon1.jpg"></a>
+							<a href="homepage.html" >Riverdale</a>
+						</div>
+							<nav>
+								<a href="homepage.html">Home</a>
+								<a href="services.html">Services</a>
+								<a href="../../IT20231200/html/Feedback%20Page.html">Review</a>
+								<a href="../../IT20252472/html/Location.html">Location</a>
+								<a href="../../IT20240288/contactus.html">Contact Us</a>
+								<a href="../../IT20203726/html/about.html">About</a>
+                                <a href="admin-user-login.html">Login</a>
+                                
+                                <div class="site-search">
+							<form action="#" method="get">
+		
+						<input type="search" name="search-box">
+						<button type="submit"></button>
+							</form>	                               
+							</nav>					
+						</div>
+				</header><!-------------- END OF HEADER ----------------------->
+					<div class="uarea"><center><h2>Salon Riverdale</h2></center></div>
+					<div class="con">
+						<div class="wrapper">
+							<h2 id="center">Welcome to Riverdale Salon</h2><br>
+					</div>
+
+
+
+					<!---------------------- CONTENT ----------------------------->
+
+					<div class="left">
+		<br><br><br>
+ 	<div class="box3"><h3 class="h3h"><b><u> Opening Hours </u></b></h3></div>
+
+<fieldset class="fset">
+	<table>
+		<tr>
+			<td class ="align">
+			 Monday<br><br>
+			 Tuesday<br><br>
+			 Wednesday<br><br>
+			 Thursday<br><br>
+			 Friday<br>
+			</td>
+
+		<td class="align1">
+		8:00 AM - 6:00 PM<br><br>
+		8:00 AM - 6:00 PM<br><br>
+		8:00 AM - 6:00 PM<br><br>
+		8:00 AM - 6:00 PM<br><br>
+		8:00 AM - 6:00 PM<br>
+		</td>
+
+		</tr>
+	</table>
+</fieldset><br><br>
+
+
+
+<div class="calender">
+		<p id="monthName"></p>
+		<p id="dayName"></p>
+		<p id="dayNumber"></p>
+		<p id="year"></p>
+ 	  </div>
+	
+	<script>
+		const lang = navigator.language;
+		let date = new Date();
+
+		let dayNumber = date.getDate();
+		let month = date.getMonth();
+		let dayName = date.toLocaleString(lang,{weekday:'long'});
+		let monthName = date.toLocaleString(lang,{month:'long'});
+		let year = date.getFullYear();
+
+		document.getElementById('monthName').innerHTML = monthName;
+		document.getElementById('dayName').innerHTML = dayName;
+		document.getElementById('dayNumber').innerHTML = dayNumber;
+		document.getElementById('year').innerHTML = year;
+
+	</script>
+
+	<div class="time1"><p id="time"></p></div><br><br>
+
+
+
+	<div class="box"><br><b>Hotline : +94 77 7777 117 <br><br> Mobile : +94 77 2121 889</b> </div><br></div>
+
+	<fieldset class="fset2">
+
+		<img class="logo01" src="../images/salon.png"><br>
+		<p class="para"><i>Our mission is to provide the heighest quality service in conjunction with the heighest quality products<br>for the well-being of our guest and enviroment</i></p>
+
+        <BUTTON class="button" style="vertical-align:middle"><a class="sbtn" href="../../IT20252472/html/Appointment.html"><span>Book Online </span></a></BUTTON>
+        <BUTTON class="button" style="vertical-align:middle"><a class="sbtn" href="../../IT20240288/product.html"><span>Online Store </span></a></BUTTON>
+        <BUTTON class="button1" style="vertical-align:middle"><a class="sbtn" href="../../IT20203726/html/registation.html"><span>Register </span></a></BUTTON><br><br>
+        <button class="button2" ><a class="sbtn" href="special-pack.html">Special Packages</a></button><br><br><br><br>
+
+				<p class="para1"><b>Find the best beauty salon in your area.<br> Quickly find a beauty appointment online at a beauty salon of your choice.</b></p>
+
+	</fieldset><br><br>
+
+
+<center><img class="imgwh" id="Img" name= "slide"></center>
+
+
+<div class="box2"><p><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d253488.724687947!2d79.893971!3d6.919112!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae253d10f7a7003%3A0x320b2e4d32d3838d!2sColombo!5e0!3m2!1sen!2slk!4v1599370136677!5m2!1sen!2slk" width="100%" height="500px" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" align="left" tabindex="0"></iframe></p></div><br>
+
+	<!------------------------------ FOOTER ------------------------------>
+                        
+                        
+                  <fieldset class="ft">
+		<table border="0">
+		<tr>
+			<td class="edit"><img class="image2" src = "../Images/salon.png" style="width:300px; height: 200px; "></td>
+			<td class="edit1"><b><u>HQ</u> </b> 
+			<br/>
+			NO:12/A,<br/>
+			Rockland Place<br/>
+			5th Lane,<br/>
+			Colombo 6.<br/>
+			(+94) 77 2121 889
+			</td>
+			
+			<td class="edit2">
+			<b><u> Branches </u></b><br/><br/>
+			<div class="under">
+			<a href = "https://www.google.com/maps/place/Colombo/@6.9218335,79.7861647,12z/data=!4m5!3m4!1s0x3ae253d10f7a7003:0x320b2e4d32d3838d!8m2!3d6.9270786!4d79.861243">Colombo</a><br/><br/>		  
+			<a href = "https://www.google.com/maps/place/Malabe/@6.9043203,79.9479226,14z/data=!3m1!4b1!4m5!3m4!1s0x3ae256d59601df81:0x31a1dd96e8d49ba!8m2!3d6.9060787!4d79.9696277">Malabe</a><br/><br/>
+			<a href = "https://www.google.com/maps/place/Panadura/@6.729035,79.8944164,13z/data=!3m1!4b1!4m5!3m4!1s0x3ae24616c169e7c3:0xd21e80c970651d56!8m2!3d6.7106361!4d79.9074262">Panadura</a><br/><br/>
+			<a href = "https://www.google.com/maps/place/Nugegoda/@6.8656191,79.8881501,14z/data=!3m1!4b1!4m5!3m4!1s0x3ae25a7a9577b535:0x62e4b0a7bd678e33!8m2!3d6.8649081!4d79.8996789">Nugegoda</a><br/><br/>
+			<a href = "https://www.google.com/maps/place/Balangoda/@6.6630029,80.6697925,13z/data=!3m1!4b1!4m5!3m4!1s0x3ae3f340fe7adc7b:0x644a4b5a08997d83!8m2!3d6.6668611!4d80.7048084">Balangoda</a><br/><br/>
+			<a href = "https://www.google.com/maps/place/Ratnapura/@6.7167744,80.3351204,13z/data=!3m1!4b1!4m5!3m4!1s0x3ae3beb435df712f:0xc14a5df053ff0561!8m2!3d6.7055742!4d80.3847345">Ratnapura</a><br/><br/>
+			</div></td>
+			
+			<td class="edit3">
+			<h2><p> Riverdale </p></h2>
+			</td>
+			
+			<td class="edit4">
+				<dive class="under1">
+			<a href="../../IT20240288/contactus.html"> Contact Us</a><br/><br/>
+			<a href="../../IT20203726/html/terms.html"> Terms of use </a><br/><br/>
+				<a href="../../IT20231200/html/privacy.html"> Privacy and policy </a><br/><br/>
+			<a href=""> Conditions </a><br/><br/>
+				</dive>
+			</td>
+			
+			<td class="edit5">
+			<h3 class="connect">Connect With Us</h3>
+			<hr>
+			<table>
+				<tr>
+			<td class="space"><a href="https://www.facebook.com/"><img id="under3" class="logoo" src="../Images/facebook.png"></a></td>
+
+			<td class="space"><a href="https://twitter.com/" ><img id="under3" class="logoo" src="../Images/twitter.png"></a></td>
+
+			<td class="space"><a href="https://www.instagram.com/" ><img id="under3" class="logoo" src="../Images/instagram.png"></a></td>
+
+			<td class="space1"><a href="https://www.pinterest.com/"><img id="under3" class="logo1" src="../Images/pinterest.png"></a><br/><br/></td><br/>
+			
+			</tr>
+			</table>
+			<p>Copyright 2020 Riverdale Salon.<br/><br/>Designated by NN Creations.</p>
+			</td>
+			
+		</tr>
+		</table>
+	</fieldset>      
+
+
+                    
+
+
+		</div>
+                
+
+		</div><br><br>
+		
+		
+	</body>
+	</html>

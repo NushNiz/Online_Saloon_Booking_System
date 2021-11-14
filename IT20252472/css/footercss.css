@@ -1,0 +1,94 @@
+
+
+.edit1{
+	padding : 35px 20px 40px 10px;
+	line-height:35px;
+	color: white;
+	
+}
+.edit2{
+	padding: 50px 5px 20px 20px;
+	color: white;
+	font-family: 'Exo', sans-serif;
+	
+	
+}
+.edit3{
+	font-family:cursive, sans-serif;
+	color:white;
+	padding: 30px 50px 35px 80px;
+	font-size: 50px;
+	text-shadow: 2px 2px 3px orange;
+}
+.edit4{
+	padding: 50px 50px 10px 50px;
+	line-height: 30px;
+	width: 200px;
+
+}
+.edit5{
+	padding: 40px 30px 40px 50px;
+	color: white;
+}
+.logoo{
+	width:30px;
+	height:30px;
+}
+.space
+{
+	padding: 10px;
+}
+.space1{
+	padding:20px 30px 5px 10px;
+}
+.logo1{
+	width:25px;
+	height:25px;
+}
+.connect{
+	padding:20px 10px 20px 30px;
+}
+.ft{
+	position: bottom;
+    background: rgb(0,0,0,0.9);
+}
+.image2{
+	height: 90px;
+	width: auto;
+	text-shadow: 5px 5px 7px aqua;
+}
+.under a{
+	text-decoration: none;
+	color:white;	
+	font-family: 'Exo', sans-serif;
+}
+.under a:hover{
+	color:#DAA520;
+	font-size: 18px;
+	border-bottom: solid 3px #DAA520;
+	transition: 0.3s ease;
+	position: absolute;
+	text-decoration:none;
+	text-transform: uppercase;
+}
+.under1 a{
+	text-decoration: none;
+	color:white;	
+	font-family: 'Exo', sans-serif;
+}
+.under1 a:hover{
+	color: #DAA520;
+	font-size: 18px;
+	border-bottom: solid 3px #DAA520;
+	transition: 0.3s ease;
+	position: absolute;
+	text-decoration:none;
+	text-transform: uppercase;
+}
+#under3:hover{
+
+	transform: scale(1.5);
+	  text-decoration: none;
+
+	
+}

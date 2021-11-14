@@ -1,0 +1,41 @@
+.ulog{
+  
+    text-align: center;
+    font-size: 30px;
+   
+}
+.userlogin{
+    background-color: rgba(22, 160, 133,0.4);
+    text-align: center;
+    border-radius: 45px;
+
+}
+
+.loginbtn{
+    background-color:transparent;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.usbtn{
+    height: 40px;
+    width: 120px;
+    border:none;
+    background-color: #2ecc71;
+    color: white;
+    border-radius: 20px;
+    text-decoration: none;
+    
+}
+.usbtn:hover{
+    cursor: pointer;
+    color: white;
+   background-color: rgba(26, 188, 156,1.0);
+   text-transform: uppercase;
+   text-decoration: none;
+
+}
+.ll{
+    text-decoration: none;
+    color: white;
+}

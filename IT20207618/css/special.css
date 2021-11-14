@@ -1,0 +1,29 @@
+.special{
+    text-align: center;
+    width: 290px;
+    background-color: palegoldenrod;
+    font-size: 20px;
+    border-radius: 15px;
+}
+.special1{
+    text-align: center;
+    width: 290px;
+ 
+    font-size: 20px;
+    background-color:lightblue;
+    border-radius: 15px;
+}
+.tb{
+    padding-top: 20px;
+    border:none;
+}
+.special2{
+    text-align: center;
+    width: 290px;
+ 
+    font-size: 20px;
+    background-color:lightseagreen;
+    border-radius: 15px;
+    color: white;
+    text-shadow: 2px 2px 1px  black;
+}

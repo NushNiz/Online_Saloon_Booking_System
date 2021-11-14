@@ -1,0 +1,22 @@
+.signout{
+    border: none;
+    width: 150px;
+    height: 30px;
+    border-radius: 20px;
+    color: aliceblue;
+    background-color: crimson;
+    font-size: 18px;
+   
+}
+.signout : hover{
+   
+    background-color: white;
+    cursor: pointer;
+    color: crimson;
+    text-decoration: none;
+}
+.so{
+    text-decoration: none;
+     color: white;
+    
+}

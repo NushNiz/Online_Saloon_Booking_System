@@ -1,0 +1,40 @@
+.appta{
+    background-color: cadetblue;
+    border: none;
+    
+}
+.delt{
+    border: none;
+    background-color:crimson;
+    border-radius: 9px;
+    width: 60px;
+    color: aliceblue;
+    
+}
+.update{
+    border: none;
+    background-color:blueviolet;
+    border-radius: 9px;
+    width: 60px;
+    color: aliceblue;
+}
+.delt:hover{
+    cursor: pointer;
+}
+.update:hover{
+    cursor: pointer;
+}
+.row1{
+    background-color: red;
+}
+.row2{
+    background-color:blueviolet;
+}
+.bnbn{
+     background-color: coral;
+    color: white;
+    width: 120px;
+    height: 50px;
+    border: none;
+    border-radius: 12px;
+}
